@@ -34,7 +34,7 @@ function App() {
      <Header/>
 
      <Routes>
-      <Route path='/Home' element={<HomePage/>}/>
+      <Route path='/' element={<HomePage/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/Movies' element={<MoviesList movies = {movies} />}/>
       <Route path='*' element={<NotFound/>}/>

@@ -12,10 +12,9 @@ export default function Header (props: IHeaderProps) {
     <>
     <header className="header">
         <h1 className="header_logo">  ReactLight-TV  </h1>
-        <Link className="header_link" to='/Home'>Home</Link>
+        <Link className="header_link" to='/'>Home</Link>
         <Link className="header_link" to='/Movies'>Movies</Link>
         <Link className="header_link" to='/About'>About</Link>
-        {/* <Link className="header_link" to='/Copyright'>Copyright</Link> */}
     </header>
     </>
   );
